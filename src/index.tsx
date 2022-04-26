@@ -10,6 +10,7 @@ import {
 import About from './pages/about';
 import Home from './pages/home';
 
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const elem = document.getElementById('root')!;
 const root = ReactDom.createRoot(elem);
 
