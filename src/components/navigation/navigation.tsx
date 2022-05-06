@@ -10,10 +10,10 @@ export function Navigation() {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">home</Link>
+                        <Link to="/">Домашняя</Link>
                     </li>
                     <li>
-                        <Link to="/about">about</Link>
+                        <Link to="/about">О сайте</Link>
                     </li>
                 </ul>
             </nav>

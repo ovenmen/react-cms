@@ -6,6 +6,7 @@ import {
     Route
 } from 'react-router-dom';
 
+import './index.css';
 import { Navigation } from './components/navigation';
 import About from './pages/about';
 import Home from './pages/home';
