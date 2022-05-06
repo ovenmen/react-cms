@@ -3,10 +3,10 @@ import ReactDom from 'react-dom/client';
 import {
     BrowserRouter,
     Routes,
-    Route,
-    Link,
+    Route
 } from 'react-router-dom';
 
+import { Navigation } from './components/navigation';
 import About from './pages/about';
 import Home from './pages/home';
 
@@ -16,8 +16,7 @@ const root = ReactDom.createRoot(elem);
 
 root.render(
     <BrowserRouter>
-        <Link to="/">home</Link>
-        <Link to="/about">about</Link>
+        <Navigation />
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
