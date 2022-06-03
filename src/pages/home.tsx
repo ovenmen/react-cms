@@ -1,9 +1,16 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
 
     return (
-        <h1>Welcome cite</h1>
+        <main>
+            <Helmet>
+                <title>Home page | react CMS</title>
+            </Helmet>
+
+            <h1>Welcome!</h1>
+        </main>
     );
 };
 
